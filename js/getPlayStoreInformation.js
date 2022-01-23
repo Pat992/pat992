@@ -27,13 +27,13 @@ const getAppInformations = async (baseUrl, apps) => {
     for (const app of apps) {
         const url = `${baseUrl}/apps/${app}`
         let res = await axios.get(url);
-
         appDetails.push({
             appID: app,
             appName: res.data.title,
             icon: res.data.icon,
             url: res.data.playstoreUrl,
-            maxInstalls: res.data.maxInstalls,
+            summary: res.data.summary,
+            installs: res.data.installs,
             released: res.data.released,
         });
     }
