@@ -20,7 +20,7 @@ jobs:
         npm ci
     - name: Update README
       run: |-
-        npm index.js ${{secrets.BASEURL}}
+        node index.js ${{secrets.BASEURL}}
     - name: Commit and push if changed
       run: |-
         git add .
