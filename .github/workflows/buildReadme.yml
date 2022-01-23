@@ -21,7 +21,6 @@ jobs:
     - name: Update README
       run: |-
         npm index.js ${{secrets.BASEURL}}
-        cat README.md
     - name: Commit and push if changed
       run: |-
         git add .
