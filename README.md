@@ -19,7 +19,6 @@ Here are some ideas to get you started:
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pat992&langs_count=10&theme=dracula&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
  -->
 
-| <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=pat992&show_icons=true&include_all_commits=true&theme=dracula&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pat992&layout=compact&theme=dracula&hide_border=true&langs_count=10" /></a> |
-| ------------- | ------------- |
+<a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=pat992&show_icons=true&include_all_commits=true&theme=dracula&hide_border=true" alt="Patrick Hettichs's github stats" /></a><a href="https://github.com/anuraghazra/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pat992&layout=compact&theme=dracula&hide_border=true&langs_count=10" /></a>
 
 andFM - Radio online FM
