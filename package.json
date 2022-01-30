@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Pat992/pat992#readme",
   "dependencies": {
-    "axios": "^0.25.0"
+    "axios": "^0.25.0",
+    "date-and-time": "^2.1.0"
   }
 }

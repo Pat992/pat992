@@ -1,4 +1,5 @@
 const axios = require('axios');
+const dateTime = require('date-and-time')
 
 module.exports.getPlaystoreApps = async (baseUrl, developer) => {
     let appIds = await getAppsFromDev(baseUrl, developer);
@@ -27,14 +28,17 @@ const getAppInformations = async (baseUrl, apps) => {
     for (const app of apps) {
         const url = `${baseUrl}/apps/${app}`
         let res = await axios.get(url);
+        const date = new Date(res.data.updated);
+        const dateStr = dateTime.format(date, 'MMM DD, YYYY');
         appDetails.push({
             appID: app,
             appName: res.data.title,
             icon: res.data.icon,
             url: res.data.playstoreUrl,
             summary: res.data.summary,
-            installs: res.data.installs,
+            installs: res.data.maxInstalls,
             released: res.data.released,
+            updated: dateStr
         });
     }
 
