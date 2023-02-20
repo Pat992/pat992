@@ -96,6 +96,10 @@ module.exports.getPlaystoreApps = async () => {
             appList.push(appPageObj);
         }
 
+        appList.sort((a, b) => {
+            return new Date(b['latUpdated']) - new Date(a['latUpdated']);
+        });
+
         return {
             apps: appList,
         };
